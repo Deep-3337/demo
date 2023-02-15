@@ -1,0 +1,111 @@
+.container-video{
+    position: relative;
+    /* width: 300px; */
+	/* border: 1px solid black; */
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    position: absolute;
+    z-index: -1;
+}
+
+.info{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.968);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    align-items: center;
+    width: 700px;
+    border-radius: 20px;
+    opacity: 0.9;
+    /* height: 200px; */
+}
+
+.info .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img{
+    padding: 10px;
+    width: 250px;
+}
+
+.info-detail{
+    padding: 10px;
+    text-align: center;
+    /* margin-left: 20px; */
+}
+
+.contact-address{
+    padding: 30px;
+    padding-right: 50px;
+    font-size: 26px;
+    text-align: center;;
+    /* width: 700px; */
+
+}
+
+.bgtechimg{
+    padding-top: 20px;
+    width: 100%;
+    z-index: -1;
+}
+
+#technical{
+    padding-bottom: 40px;
+    color: aliceblue;
+    background-attachment:fixed;
+    background-image: url('image/technicalimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    font-size: 20px;
+    line-height:1.5;
+}
+
+.tech-info{
+    padding: 20px;
+    margin-bottom:20px
+}
+
+#education{
+    height: auto;
+    padding-bottom: 40px;
+    color: aliceblue;
+    background-attachment:fixed;
+    background-image: url('image/skillimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 20px
+}
+
+.wrapper{
+    background-color: rgba(147, 84, 1, 0.7);
+    border-radius: 10px;
+}
+
+#skill{
+    height: auto;
+    padding-bottom: 40px;
+    color: aliceblue;
+    background-attachment:fixed;
+    background-image: url('image/skillimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    padding: 20px
+}
+
+.form{
+    color: white;
+    background-color: rgba(39, 39, 38, 0.7);
+}
